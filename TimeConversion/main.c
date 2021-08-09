@@ -1,3 +1,7 @@
+
+ #define AM "AM"
+ #define PM "PM"
+ 
 char* timeConversion(char* s) {
     char hh[3] = "";
     memcpy(hh,s,2);
